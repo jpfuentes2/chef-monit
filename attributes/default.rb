@@ -1,3 +1,4 @@
+default[:monit][:email_alerts?]         = true
 default[:monit][:notify_email]          = "notify@example.com"
 
 default[:monit][:logfile]               = 'syslog facility log_daemon'
